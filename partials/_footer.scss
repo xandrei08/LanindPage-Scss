@@ -1,0 +1,25 @@
+@import "../partials/mixins";
+@import "../partials/variables";
+footer{
+    background-color:$color1;
+    color:$color4;
+    @include widthAndHeight(100%,300px);
+.footer-content{
+  @include display(space-evenly);
+    height: 60%;
+    p{
+        padding:2.5em 0 1.25 0;
+        font-size:$font-size-regular4;
+    }
+    ul{
+        list-style:none;
+        li{
+            font-size:$font-size-regular2;
+            line-height: 1.87em;
+        }
+    }
+
+    }
+  
+}
+

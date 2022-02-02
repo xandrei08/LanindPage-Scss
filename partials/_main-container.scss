@@ -1,0 +1,250 @@
+@import "../partials/functions";
+@import "../partials/mixins";
+@import "../partials/variables";
+@import "../partials/nav";
+@import "../partials/footer";
+
+.main{
+  max-width: rem(1600px);
+  margin: 0 auto;
+}
+// First container 
+.first-container-bg-img{
+background-image:url("../Main/assets/first-container.png");
+@include imageProp(no-repeat,cover,550px);
+.first-container-logo{
+    width: fit-content;
+    margin:0;
+    padding-top:45px;
+    padding-left:10px;
+    p{
+        @include fontSize(1.6rem, 300);
+        color:$color4;
+    }
+}
+.first-container-overlay{
+    background-image:url("../Main/assets/first-overlay.png");
+    @include widthAndHeight(677px,400px);
+    margin: 0 0 0 80px;
+ }
+
+.first-container-overlay-title {
+    @include widthAndHeight(416px,177px);
+    margin:27px 0 0 50px;
+    padding:20px 0;
+   @include fontSize(30px,bold);
+   color:$color4;
+ }
+
+ .first-container-overlay-line{
+   @include lines-props;
+   margin:20px 0 0 55px;
+   
+ }
+ .first-container-overlay-paragraph{
+     p{
+         font-size:$font-size-regular4;
+         margin:20px 0 0 55px;
+         color:$color4;
+     }
+ }
+ .first-container-overlay-btn{
+    margin:60px 0 0 55px;
+    @include button(260px,64px);
+ }
+
+}
+//Navbar 
+nav{
+    @include nav-bar;
+    ul{
+        @include nav-ul;
+    }
+    li{
+        @include nav-li;
+        a{
+            @include nav-a;
+        }
+    }
+
+}
+// Second container
+.second-container{
+    @include display(center);
+    background-image:url("../Main/assets/second-background.png");
+    @include imageProp(no-repeat,cover,600px);
+    position:relative;
+// Left - Side 
+    .second-container-left{
+     background-image:url("../Main/assets/left-rectangle.png");
+     @include second-container;
+     a{
+         @include selectPosition(absolute1);
+     }
+    }
+// Right - Side 
+    .second-container-right{
+     background-image:url("../Main/assets/right-rectangle.png");
+    @include second-container;
+     h2{
+         color:$color4;
+         @include fontSize(30px,bold);
+         margin:85px 0 0 45px;
+     }
+     div{
+         @include lines-props;
+        margin:70px 0 0 45px;
+     }
+     p{
+         font-size:$font-size-regular2;
+         color:$color4;
+        padding:30px 20px 0 45px
+     }
+     .btn{
+        @include button(340px,64px);
+         margin:37px 0 0 45px;
+     }
+     img{
+         @include selectPosition(absolute2);
+     }
+    }
+}
+// Third container 
+.third-container{
+    background-image:url("../Main/assets/third-container.png");
+   @include imageProp(no-repeat,cover,600px);
+   @include display3;
+
+   .third-container-left{
+       width: 100%;
+     h2 {
+        color:$color4;
+         @include fontSize(30px,bold);
+         margin:70px 0 0 210px;
+         
+     }
+     .first-paragraph{
+      font-size:$font-size-regular2;
+      color:$color4;
+      margin:15px 0 0 210px;
+     }
+     .second-paragraph{
+         @extend .first-paragraph;
+         font-style: italic;
+         margin-left:240px;
+     }
+     .third-paragraph{
+         font-size:$font-size-regular1;
+         color:$color4;
+         margin:40px 0 0 210px;
+         .third-paragraph-spam{
+             font-weight: bold;
+         }
+     }
+     .btn-small{
+        @include button(340px,64px);
+        margin:50px 0 0 210px;
+     }
+   }
+   .third-container-right{
+       .first-paragraph{
+           margin-top:180px;
+           margin-right:200px;
+           @include fontSize(100px,bold);
+           color:$color3;
+       }
+       .second-paragraph{
+       @include fontSize(16px,bold);
+       color:$color4;
+       }
+   }
+}
+// Fourth container 
+.fourth-container{
+    background-image:url("../Main/assets/fourth-container.png");
+    @include imageProp(no-repeat,cover,600px);
+    position:relative;
+    
+    .first-quotation-mark{
+     @include element-position1(absolute,16%,2%);
+    }
+    .first-paragraph{
+      font-size:$font-size-regular3;
+      color:$color4;
+      @include element-position1(absolute,22%,15%);
+    }
+    .second-paragraph{
+      @include element-position2(absolute,15%,25%);
+      color:$color4;
+    }
+    .second-quotation-mark{
+        @include element-position2(absolute,2%,4%);
+    }
+}
+// Fifth container
+.fifth-container{
+   @include display(center);
+   //Left - Side
+    .fifth-container-left{
+    width: 50%;
+    background-image:url("../Main/assets/fifth-container-left.png");
+    @include imageProp(no-repeat,cover,450px);
+      .overlay{
+          background-color:rgba(0,0,0,0.5);
+          @include widthAndHeight(100%,100%);
+          @include container-display(flex,column,flex-end);
+          .overlay-title{
+            @extend %height-size1;
+              h2{
+                  @include fontSize(1.8rem,bold);
+                  color:$color4;
+                  margin:36px 80px 0 0 ;
+              }
+          }
+              .overlay-paragraph{
+                @extend %height-size1;
+              color:$color4;
+              font-size:$font-size-regular2;
+              margin:50px 10px 0 415px;
+            }
+              .overlay-buttton{
+                @extend %height-size1;
+              margin:50px 110px 0 0;
+              button{
+                  @include button(280px,64px);
+              }
+          }
+      }
+    }
+// Right - Side 
+    .fifth-container-right{
+     width: 50%;
+     background-image:url("../Main/assets/fifth-container-right.png");
+     @include imageProp(no-repeat,cover,450px);
+     @include container-display(flex,column,flex-start);
+      .container-title{ 
+        @extend %height-size1;
+        h2{ 
+        @include fontSize(30px,bold);
+        color:$color4;
+        margin:36px 0 0 80px;
+        
+      }
+    } 
+    .container-paragraph{
+        @extend %height-size1;
+        p{
+            color:$color4;
+            font-size:$font-size-regular2;
+            margin:20px 0 0 80px;
+        }
+    }
+     .container-button{  
+        @extend %height-size1;
+         button{
+            @include button(280px,64px);
+         margin:37px 0 0 80px;
+       }
+    }
+    }
+}

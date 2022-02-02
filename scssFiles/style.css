@@ -1,0 +1,487 @@
+.fifth-container .fifth-container-left .overlay .overlay-title, .fifth-container .fifth-container-left .overlay .overlay-paragraph, .fifth-container .fifth-container-left .overlay .overlay-buttton, .fifth-container .fifth-container-right .container-title, .fifth-container .fifth-container-right .container-paragraph, .fifth-container .fifth-container-right .container-button {
+  height: 33%;
+}
+
+.fifth-container .fifth-container-left .overlay .overlay-title, .fifth-container .fifth-container-left .overlay .overlay-paragraph, .fifth-container .fifth-container-left .overlay .overlay-buttton, .fifth-container .fifth-container-right .container-title, .fifth-container .fifth-container-right .container-paragraph, .fifth-container .fifth-container-right .container-button {
+  height: 33%;
+}
+
+.fifth-container .fifth-container-left .overlay .overlay-title, .fifth-container .fifth-container-left .overlay .overlay-paragraph, .fifth-container .fifth-container-left .overlay .overlay-buttton, .fifth-container .fifth-container-right .container-title, .fifth-container .fifth-container-right .container-paragraph, .fifth-container .fifth-container-right .container-button {
+  height: 33%;
+}
+
+.fifth-container .fifth-container-left .overlay .overlay-title, .fifth-container .fifth-container-left .overlay .overlay-paragraph, .fifth-container .fifth-container-left .overlay .overlay-buttton, .fifth-container .fifth-container-right .container-title, .fifth-container .fifth-container-right .container-paragraph, .fifth-container .fifth-container-right .container-button {
+  height: 33%;
+}
+
+.fifth-container .fifth-container-left .overlay .overlay-title, .fifth-container .fifth-container-left .overlay .overlay-paragraph, .fifth-container .fifth-container-left .overlay .overlay-buttton, .fifth-container .fifth-container-right .container-title, .fifth-container .fifth-container-right .container-paragraph, .fifth-container .fifth-container-right .container-button {
+  height: 33%;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  height: 300px;
+}
+
+footer .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 60%;
+}
+
+footer .footer-content p {
+  padding: 2.5em 0 1.25 0;
+  font-size: 20px;
+}
+
+footer .footer-content ul {
+  list-style: none;
+}
+
+footer .footer-content ul li {
+  font-size: 16px;
+  line-height: 1.87em;
+}
+
+.main {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.first-container-bg-img {
+  background-image: url("../Main/assets/first-container.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.first-container-bg-img .first-container-logo {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0;
+  padding-top: 45px;
+  padding-left: 10px;
+}
+
+.first-container-bg-img .first-container-logo p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.first-container-bg-img .first-container-overlay {
+  background-image: url("../Main/assets/first-overlay.png");
+  width: 677px;
+  height: 400px;
+  margin: 0 0 0 80px;
+}
+
+.first-container-bg-img .first-container-overlay-title {
+  width: 416px;
+  height: 177px;
+  margin: 27px 0 0 50px;
+  padding: 20px 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.first-container-bg-img .first-container-overlay-line {
+  width: 58px;
+  height: 7px;
+  background-color: #FACD62;
+  margin: 20px 0 0 55px;
+}
+
+.first-container-bg-img .first-container-overlay-paragraph p {
+  font-size: 20px;
+  margin: 20px 0 0 55px;
+  color: #ffffff;
+}
+
+.first-container-bg-img .first-container-overlay-btn {
+  margin: 60px 0 0 55px;
+  width: 260px;
+  height: 64px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+nav {
+  background-color: #000000;
+}
+
+nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+
+nav li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 2rem;
+}
+
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.second-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../Main/assets/second-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+
+.second-container .second-container-left {
+  background-image: url("../Main/assets/left-rectangle.png");
+  width: 40%;
+  height: 470px;
+  margin: auto 0;
+}
+
+.second-container .second-container-left a {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.second-container .second-container-right {
+  background-image: url("../Main/assets/right-rectangle.png");
+  width: 40%;
+  height: 470px;
+  margin: auto 0;
+}
+
+.second-container .second-container-right h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 85px 0 0 45px;
+}
+
+.second-container .second-container-right div {
+  width: 58px;
+  height: 7px;
+  background-color: #FACD62;
+  margin: 70px 0 0 45px;
+}
+
+.second-container .second-container-right p {
+  font-size: 16px;
+  color: #ffffff;
+  padding: 30px 20px 0 45px;
+}
+
+.second-container .second-container-right .btn {
+  width: 340px;
+  height: 64px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 37px 0 0 45px;
+}
+
+.second-container .second-container-right img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.third-container {
+  background-image: url("../Main/assets/third-container.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.third-container .third-container-left {
+  width: 100%;
+}
+
+.third-container .third-container-left h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 70px 0 0 210px;
+}
+
+.third-container .third-container-left .first-paragraph, .third-container .third-container-left .second-paragraph {
+  font-size: 16px;
+  color: #ffffff;
+  margin: 15px 0 0 210px;
+}
+
+.third-container .third-container-left .second-paragraph {
+  font-style: italic;
+  margin-left: 240px;
+}
+
+.third-container .third-container-left .third-paragraph {
+  font-size: 12px;
+  color: #ffffff;
+  margin: 40px 0 0 210px;
+}
+
+.third-container .third-container-left .third-paragraph .third-paragraph-spam {
+  font-weight: bold;
+}
+
+.third-container .third-container-left .btn-small {
+  width: 340px;
+  height: 64px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 50px 0 0 210px;
+}
+
+.third-container .third-container-right .first-paragraph, .third-container .third-container-right .third-container-left .second-paragraph, .third-container .third-container-left .third-container-right .second-paragraph {
+  margin-top: 180px;
+  margin-right: 200px;
+  font-size: 100px;
+  font-weight: bold;
+  color: #A4D8E5;
+}
+
+.third-container .third-container-right .second-paragraph {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.fourth-container {
+  background-image: url("../Main/assets/fourth-container.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+
+.fourth-container .first-quotation-mark {
+  position: absolute;
+  top: 16%;
+  left: 2%;
+}
+
+.fourth-container .first-paragraph, .fourth-container .third-container .third-container-left .second-paragraph, .third-container .third-container-left .fourth-container .second-paragraph {
+  font-size: 50px;
+  color: #ffffff;
+  position: absolute;
+  top: 22%;
+  left: 15%;
+}
+
+.fourth-container .second-paragraph {
+  position: absolute;
+  right: 15%;
+  bottom: 25%;
+  color: #ffffff;
+}
+
+.fourth-container .second-quotation-mark {
+  position: absolute;
+  right: 2%;
+  bottom: 4%;
+}
+
+.fifth-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fifth-container .fifth-container-left {
+  width: 50%;
+  background-image: url("../Main/assets/fifth-container-left.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+
+.fifth-container .fifth-container-left .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.fifth-container .fifth-container-left .overlay .overlay-title h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 36px 80px 0 0;
+}
+
+.fifth-container .fifth-container-left .overlay .overlay-paragraph {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 50px 10px 0 415px;
+}
+
+.fifth-container .fifth-container-left .overlay .overlay-buttton {
+  margin: 50px 110px 0 0;
+}
+
+.fifth-container .fifth-container-left .overlay .overlay-buttton button {
+  width: 280px;
+  height: 64px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.fifth-container .fifth-container-right {
+  width: 50%;
+  background-image: url("../Main/assets/fifth-container-right.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.fifth-container .fifth-container-right .container-title h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 36px 0 0 80px;
+}
+
+.fifth-container .fifth-container-right .container-paragraph p {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 20px 0 0 80px;
+}
+
+.fifth-container .fifth-container-right .container-button button {
+  width: 280px;
+  height: 64px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 37px 0 0 80px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/**
+   * Remove the margin in all browsers.
+   */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+/** 
+  * Removing the padding and margin for ul 
+  */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+img {
+  border-style: none;
+}
+
+/**
+    * Correct the margin on heading elements
+    */
+headings(1, 6), p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */

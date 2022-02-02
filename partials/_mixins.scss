@@ -1,0 +1,79 @@
+@import "../partials/variables";
+
+//Width and Height 
+@mixin widthAndHeight($width,$height){
+    width:$width;
+    height: $height;
+}
+// Font sizes Mixins
+@mixin fontSize($font-size,$font-weight){
+    font-size:$font-size;
+    font-weight:$font-weight;
+}
+// Diplsay Mixins
+@mixin display($prop1){
+    display:flex;
+    flex-direction:row;
+    justify-content:$prop1;
+}
+@mixin display3{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+// Second containers background-images sizes 
+@mixin second-container{
+    width: 40%;
+    height: 470px;
+    margin:auto 0;
+}
+
+// Background-images Props
+@mixin imageProp($repeat,$size,$height){
+    background-repeat: $repeat;
+    background-size:$size;
+    height: $height;
+}
+@mixin selectPosition($position){
+    @if ($position == absolute1){
+        position:absolute;
+        left:0;
+        bottom:0;
+    }
+    @else if($position == absolute2){
+        position:absolute;
+        right:0;
+        top:0;
+    }
+}
+//Buttons props
+@mixin button($width,$height){
+   width: $width;
+   height: $height;
+   cursor:pointer;
+   border-radius:10px;
+   padding:10px;
+   @include fontSize(18px,600);
+}
+// Lines props
+@mixin lines-props{
+    width: 58px;
+    height: 7px;
+    background-color:$lines-colors;
+}
+
+// Interpolatioons 
+@mixin element-position1($position,$prop1,$prop2){
+    position:$position;
+    top:$prop1;
+    left:$prop2;
+}
+@mixin element-position2($position,$prop1,$prop2){
+    position: $position;
+    right:$prop1;
+    bottom:$prop2;
+}
+@mixin container-display($display,$prop1,$prop2){
+    display:$display;
+    flex-direction:$prop1;
+    align-items: $prop2;
+}

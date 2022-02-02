@@ -1,0 +1,12 @@
+@import "../partials2/mixins";
+
+
+.main{
+    max-width: 1600px;
+    margin:0 auto;
+}
+
+// .first-container{
+//   @include backgroundImage("../assets2/HeaderImg.jpg");
+//   @include container-size(100%,100%);
+// }
